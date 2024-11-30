@@ -48,7 +48,7 @@ let tempo = setInterval(() => {
     img.src = imag[c];
 
 if(c == imag.length -1){
-    c=0;
+    c=-1;
     clearInterval(tempo);
 }
 
